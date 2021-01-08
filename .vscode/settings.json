@@ -1,3 +1,26 @@
 {
-    "go.testFlags": ["-v"]
+    "go.testFlags": [
+        "-v"
+    ],
+    "extensions.ignoreRecommendations": true
+        "-v"
+    ],
+    "extensions.ignoreRecommendations": true,
+    "files.autoSave": "off"
+        "-v"
+    ],
+    "extensions.ignoreRecommendations": true,
+    "files.autoSave": "off"
+        "-v"
+    ],
+    "extensions.ignoreRecommendations": true,
+    "files.autoSave": "off"
+        "-v"
+    ],
+    "extensions.ignoreRecommendations": true,
+    "files.autoSave": "off"
+        "-v"
+    ],
+    "extensions.ignoreRecommendations": true,
+    "files.autoSave": "off"
 }

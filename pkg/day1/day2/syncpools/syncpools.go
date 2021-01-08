@@ -1,6 +1,5 @@
 package syncpools
 
-
 import (
 	"bytes"
 	"fmt"
@@ -25,11 +24,9 @@ func Example1() {
 	s := pool.Get().(*bytes.Buffer)
 	// We write to the object
 	s.Write([]byte("EXAMPLE 1 "))
-	
+
 	// Then put it back
-        pool.Put(s)
-
-
+	pool.Put(s)
 
 	time.Sleep(3 * time.Millisecond)
 	// Pools can return dirty results
@@ -87,5 +84,12 @@ func Example2() {
 	fmt.Println(s)
 }
 
+func Z() {
 
+	fmt.Printf("zoe")
 
+	s := pool.Get().(*bytes.Buffer)
+	s.Write([]byte("func Z"))
+	defer s.Put()
+
+}
